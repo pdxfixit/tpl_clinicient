@@ -19,7 +19,7 @@
         <field name="master" type="hidden" value="false" default="true"/>
         <field name="current_id" type="hidden" value="false" default="true"/>
         <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
-        <field name="template_full_name" type="hidden" default="Gantry Template"/>
+        <field name="template_full_name" type="hidden" default="Clinicient Template"/>
         <!--<field name="diagnostic" type="diagnostic" panel_position="right" show_label="false" />-->
         <!--<field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false"/>-->
         <field name="grid_system" type="hidden" default="12"/>
@@ -204,7 +204,7 @@
         </field>
 		<field name="menutips" type="tips" tab="menu" panel_position="right" show_label="false"/>
         <fields name="menu" type="selectedset" label="MENU_CTRL">
-            <field name="enabled" type="toggle" default="1" label="SHOW" />
+            <field name="enabled" type="toggle" default="1" label="SHOW" enabler="true" />
             <field name="type" type="selectbox" selector="true" default="fusionmenu" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
             <fields type="set" name="fusionmenu" label="FUSION">
                 <field name="menutype" type="menus" default="mainmenu" label="MENU_SELECT" />

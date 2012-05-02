@@ -23,7 +23,7 @@ div.rt-container {
 */
 
 /* Logo */
-a#rt-logo { background: url('../images/logo/clinicient.png') top left no-repeat transparent; height: 75px; width: 325px; }
+body a#rt-logo { background: url('../images/logo/clinicient.png') top left no-repeat transparent; height: 75px; width: 325px; }
 
 /* Menu */
 div#rt-menu div.rt-container {
