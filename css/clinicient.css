@@ -2,23 +2,19 @@
 
 /* Fonts */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600');
-@font-face {
-    font-family: 'Vera';
-    src: url('vera.ttf') format('truetype');
-}
 
 /* Sorry, RocketTheme... */
 #rocket { display: none; }
 
 /* Style Resets */
-.component-content .rt-article-bg { border: none; }
-
-/* Body */
-body.col12 { background: #90D8F1 url('../images/body/background.jpg') repeat-x top left; font-family: Helvetica, Arial, sans-serif; }
 h1, h2 { color: #78a539; font-size: 17px; line-height: 0.9em; }
+.component-content .rt-article-bg { border: none; }
 .module-title h2 { color: #666666; font-size: 20px; line-height: 0.9em; }
 .module-title h3, h4, h5 { color: #78a539; font-size: 12px; line-height: 14px; }
 .contentheading { font-size: 100%; }
+
+/* Body */
+body.col12 { background: #90D8F1 url('../images/body/background.jpg') repeat-x top left; font-family: Helvetica, Arial, sans-serif; }
 
 /* Logo */
 body a#rt-logo { background: url('../images/logo/clinicient.png') top left no-repeat transparent; height: 75px; width: 325px; }
@@ -51,3 +47,6 @@ div.menutop ul li:last-of-type { border-bottom: 1px solid #bfbfbf; }
 div.menutop ul li > .daddy span { background: none; }
 div.menutop ul li > .item { color: black; }
 div.menutop ul li > .item span { line-height: 1em; padding: 10px 0; }
+
+/* Kunena */
+
