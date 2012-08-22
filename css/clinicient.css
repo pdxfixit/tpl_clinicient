@@ -14,55 +14,39 @@
 .component-content .rt-article-bg { border: none; }
 
 /* Body */
-body.col12 { background: #90D8F1 url('../images/body/background.jpg') repeat-x top left; font-family: Vera, Helvetica, Arial, sans-serif; }
-/*
-div.rt-container {
-    -webkit-box-shadow: 8px 0px 5px -5px rgba(50, 50, 50, 0.75), -8px 0px 5px -5px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    8px 0px 5px -5px rgba(50, 50, 50, 0.75), -8px 0px 5px -5px rgba(50, 50, 50, 0.75);
-    box-shadow:         8px 0px 5px -5px rgba(50, 50, 50, 0.75), -8px 0px 5px -5px rgba(50, 50, 50, 0.75);
-}
-*/
+body.col12 { background: #90D8F1 url('../images/body/background.jpg') repeat-x top left; font-family: Helvetica, Arial, sans-serif; }
+h1, h2 { color: #78a539; font-size: 17px; line-height: 0.9em; }
+.module-title h2 { color: #666666; font-size: 20px; line-height: 0.9em; }
+.module-title h3, h4, h5 { color: #78a539; font-size: 12px; line-height: 14px; }
+.contentheading { font-size: 100%; }
 
 /* Logo */
 body a#rt-logo { background: url('../images/logo/clinicient.png') top left no-repeat transparent; height: 75px; width: 325px; }
 
 /* Menu */
-div#rt-menu div.rt-container {
-    border-bottom: 1px solid #bfbfbf;
-    border-top: 1px solid #bfbfbf;
-}
+div#rt-menu div.rt-container { border-bottom: 1px solid #bfbfbf; border-top: 1px solid #bfbfbf; }
 div#rt-menu div.rt-container,
 div.menutop ul li > .item,
 div.menutop ul li > .item:hover,
-div.menutop ul li.f-menuparent-itemfocus > .item {
-    background: transparent url('../images/menus/bg-grad-ltblue.png') repeat-x top left;
-    color: black;
-/*    background: #90d8f1;  Old browsers 
-    background: -moz-linear-gradient(top, #ffffff 0%, #90d8f1 100%);  FF3.6+ 
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#90d8f1));  Chrome,Safari4+ 
-    background: -webkit-linear-gradient(top, #ffffff 0%,#90d8f1 100%);  Chrome10+,Safari5.1+ 
-    background: -o-linear-gradient(top, #ffffff 0%,#90d8f1 100%);  Opera 11.10+ 
-    background: -ms-linear-gradient(top, #ffffff 0%,#90d8f1 100%);  IE10+ 
-    background: linear-gradient(top, #ffffff 0%,#90d8f1 100%);  W3C 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#90d8f1',GradientType=0 );  IE6-9 */
-}
+div.menutop ul li.f-menuparent-itemfocus > .item { background: transparent url('../images/menus/bg-grad-ltblue.png') repeat-x top left; color: black; }
 div.menutop div.fusion-submenu-wrapper.level2,
 div.menutop div.fusion-submenu-wrapper.level3,
 div.menutop div.fusion-submenu-wrapper.level4,
 div.menutop div.fusion-submenu-wrapper.level5,
 div.menutop div.fusion-submenu-wrapper.level6 { background: transparent; }
-div#rt-menu div.rt-container div.rt-menubar { text-align: center; }
+div#rt-menu div.rt-container div.rt-menubar { text-align: left; }
 div#rt-menu div.rt-menubar ul.menutop li.root { background: transparent url('../images/menus/bg-dot-black.png') no-repeat right center; }
 div.menutop ul li > .item,
-div#rt-menu div.rt-menubar ul.menutop li.root { font-family: 'Open Sans', Verdana, sans-serif; font-size: 14px; font-weight: 600; text-transform: uppercase; }
+div#rt-menu div.rt-menubar ul.menutop li.root { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; font-weight: 400; }
 div#rt-menu div.rt-menubar ul.menutop li.root:last-of-type { background: none; }
 div#rt-menu div.rt-menubar ul.menutop li.root > .item { background: transparent; color: black; height: 36px; }
 div.menutop ul li > .item:hover,
 div.menutop ul li.f-menuparent-itemfocus > .item,
 div#rt-menu div.rt-menubar ul.menutop li.root > .item:hover,
 div#rt-menu div.rt-menubar ul.menutop li.f-mainparent-itemfocus > .item { color: #95C545; }
+/*div#rt-menu div.rt-menubar ul.menutop li.parent.root > .item span { padding-right: 15px; }*/
 div#rt-menu div.rt-menubar ul.menutop li.root > .item span { background: none; line-height: 36px; }
-div.menutop ul li { border-left: 1px solid #bfbfbf; border-right: 1px solid #bfbfbf; border-top: 1px solid #bfbfbf; text-align: center; }
+div.menutop ul li { border-left: 1px solid #bfbfbf; border-right: 1px solid #bfbfbf; border-top: 1px solid #bfbfbf; text-align: left; }
 div.menutop ul li:last-of-type { border-bottom: 1px solid #bfbfbf; }
 div.menutop ul li > .daddy span { background: none; }
 div.menutop ul li > .item { color: black; }
