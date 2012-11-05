@@ -7,10 +7,10 @@
 #rocket { display: none; }
 
 /* Style Resets */
-h1, h2 { color: #78a539; font-size: 17px; line-height: 0.9em; }
+h1, h2 { color: #78a539; font-size: 17px; letter-spacing: 0; line-height: 0.9em; }
 .component-content .rt-article-bg { border: none; }
-.module-title h2 { color: #666666; font-size: 20px; line-height: 0.9em; }
-.module-title h3, h4, h5 { color: #78a539; font-size: 12px; line-height: 14px; }
+.module-title h2 { color: #666666; font-size: 20px; letter-spacing: 0; line-height: 0.9em; }
+.module-title h3, h4, h5 { color: #78a539; font-size: 12px; letter-spacing: 0; line-height: 14px; }
 .contentheading { font-size: 100%; }
 
 /* Body */
@@ -49,4 +49,5 @@ div.menutop ul li > .item { color: black; }
 div.menutop ul li > .item span { line-height: 1em; padding: 10px 0; }
 
 /* Kunena */
+div#Kunena div.kblock div.kheader { background-color: #90D8F1 !important; }
 
